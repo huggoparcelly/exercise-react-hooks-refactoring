@@ -1,5 +1,6 @@
 // src/Cars.jsx
 
+
 import React, { useContext } from 'react';
 import CarsContext from './context/CarsContext';
 import carBlue from './images/carBlue.jpeg';
@@ -25,6 +26,7 @@ function Cars() {
           Move
       </button>
       </div>
+
       <div>
         <img
           className={blueCar ? 'car-right' : 'car-left'}
@@ -53,7 +55,6 @@ function Cars() {
       </div>
     </div>
   )
-
 }
 
 Cars.contextType = CarsContext;
