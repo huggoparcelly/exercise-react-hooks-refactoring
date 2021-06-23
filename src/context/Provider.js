@@ -15,6 +15,7 @@ function Provider({children}) {
     color: 'red',
   })
 
+
   const moveCar = (car, side) => {
     setCars({
       ...cars,
@@ -35,7 +36,6 @@ function Provider({children}) {
       {children}
     </CarsContext.Provider>
   );
-
 }
 
 Provider.propTypes = {

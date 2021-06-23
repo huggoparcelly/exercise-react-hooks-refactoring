@@ -1,6 +1,7 @@
 // src/Cars.jsx
 
-import React, { Component, useContext } from 'react';
+
+import React, { useContext } from 'react';
 import CarsContext from './context/CarsContext';
 import carBlue from './images/carBlue.jpeg';
 import carRed from './images/carRed.jpeg';
@@ -25,6 +26,7 @@ function Cars() {
           Move
       </button>
       </div>
+
       <div>
         <img
           className={blueCar ? 'car-right' : 'car-left'}
